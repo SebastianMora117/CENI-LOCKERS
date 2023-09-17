@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,9 +15,9 @@
                 <a href="../Soporte/index.php">Soporte</a>
                
                 <a href="../reportes/index.php">Reportes</a>
-                <a href="../cancelacion/cancelacionn.php">Cancelación</a>
+       
 
-                <a href="?cerrar_sesion=1">Cerrar Sesión</a>
+                
                
             </nav>
         </div>
@@ -28,7 +25,7 @@
 
     <section id="hero">
         <h1>El mejor servicio y seguridad<br>Para tu locker</h1>
-        <button><a href="../mapa/index.php" style="text-decoration: none;color:white">Reserva ya!</button></a>
+        <button><a href="../inicios/InicioSesion.html" style="text-decoration: none;color:white">Iniciar Sesión</button></a>
 
     </section>
 
@@ -82,22 +79,38 @@
         <h2>No te has registrado?</h2>
         <button><a href="../Inicios/Registro.html" style="text-decoration: none;color:white">Registrate!</a></button>
     </section>
+    <style>
+    footer{
+    align-items: center;
+    background-color:white rgb(30,30,30);
+}
 
-    <footer>
-        <div class="container" id="container">
-            <p>&copy; CeniLockers 2023</p>
-            <br>
-            <p>✔️ Correo:LockersCenigraf@soy.sena.edu.co</p>
-            <br>
-            <p>✔️ Direccion:Cl. 15 #31-42, Bogotá</p>
-            <br>
-            <p>✔️ Servicio al cliente: 311 295 77 08</p>
-            <br>
-            <p>✔️ Linea gratuita 018000000-0000</p>
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: black(148, 148, 148);
+    background-color:white rgb(30,30,30);
+}
 
-       
-               
+footer .container{
+    text-align: center;
+    justify-content: center;
+    background-color:white rgb(30,30,30);
+}
+</style>
+
+
+    <footer >
+        <div class="container" id="container" >
+            <p >
+                    Linea gratuita 018000000-0000<br><br>
+                    Correo:LockersCenigraf@soy.sena.edu.co <br><br>
+                    Direccion:Cl. 15 #31-42, Bogotá<br><br>
+                    Servicio al cliente: 311 295 77 08<br><br>
+                    &copy; CeniLockers!
+            </p>
         </div>
     </footer>
+
 </body>
 </html>
