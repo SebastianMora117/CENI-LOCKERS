@@ -23,7 +23,7 @@ $usuario = mysqli_fetch_array($resultado);
     if ($usuario['rol'] == "Administrador") {
         header("Location: ../Administrador/Administrador.php");
     }else {
-        header("Location: ../paginainicio/index.php");
+        header("Location: ../mapa/index.php");
     }
     exit();
 } else {
