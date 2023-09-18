@@ -20,9 +20,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $sql = "DELETE FROM lockers WHERE id_locker = $casillero";
 
         if ($conexion->query($sql) === TRUE) {
-            echo "Reserva cancelada correctamente";
+            echo "<script>alert('cancelacion realizada');
+            window.location.href = 'cancelacionn.php';</script>";
         } else {
-            echo "Error al cancelar la reserva: " . $conexion->error;
+            echo "<script>alert('cancelacion fallida');
+            window.location.href = 'cancelacionn.php';</script>"; . $conexion->error;
         }
 
         $conexion->close();
