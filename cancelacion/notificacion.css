@@ -72,13 +72,13 @@ header a{
     background-position: center center;
     
 }
-#tiempo
+#tiempo input
   {
     color: blueviolet;
- margin-top: -5px;
+ margin-top: 5px;
  background-color: rgb(255, 253, 253);
-    width: 300px;
-    height: 250px;
+    width: 6000px;
+    height: 350px;
     display: flex;
   justify-content: center;
   align-items: center;
@@ -121,4 +121,5 @@ header a{
         background-position-x: calc(100vw - 800px);
     }
 }
+
 
