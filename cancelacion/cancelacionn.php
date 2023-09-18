@@ -31,10 +31,10 @@ if (isset($_GET['cerrar_sesion'])) {
         </div>
     </header>
     <section id="hero">
-        <h2>TIEMPO RESTANTE DEL LOCKER<br>Este es el tiempo que tienes para utilizar el locker</h2><br><br>
-        <div class="container">
-            <p id="tiempo">00:00:00</p>
-        </div>
+       <h1>Mostrar Valores</h1>
+       <form action="cancelacion.php" method="get">
+        <input id="tiempo"type="submit" value="Mostrar tiempo">
+    </form>
     </section>
     <br><br><br>   <br>
     <section id="hero1" >
