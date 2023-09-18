@@ -26,5 +26,7 @@ CREATE TABLE usuarios (
     rol VARCHAR(30) NOT NULL
 );
 create table lockers(
-    id_locker varchar(30) PRIMARY KEY NOT NULL
+    id_locker varchar(30) PRIMARY KEY NOT NULL,
+    reservation_time TIME NOT NULL,
+    expiration_time TIME NOT NULL
 );
