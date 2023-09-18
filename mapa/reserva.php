@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit();
     }
 
-    $consulta = "INSERT INTO lockers (id_locker) VALUES ('$lockerSelec')";
+    $consulta = "INSERT INTO lockers (id_locker, reservation_time, expiration_time) VALUES ('$lockerSelec', NOW(), DATE_ADD(NOW(), INTERVAL 1 MINUTE))";
 
     if (mysqli_query($conexion, $consulta)) {
         // Registrar la selección en la variable de sesión
@@ -47,3 +47,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mysqli_close($conexion);
 }
 ?>
+
