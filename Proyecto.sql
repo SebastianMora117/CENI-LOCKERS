@@ -10,11 +10,7 @@ create table preguntas(
     correo varchar(60) not null
 );
 
-CREATE TABLE cancelacion(
-    razon varchar(100) not null,
-    nombreest varchar(30) not null,
-    numeroloker int(11)not null
-);
+
 
 CREATE TABLE usuarios (
     id_usuarios VARCHAR(30) PRIMARY KEY NOT NULL,
