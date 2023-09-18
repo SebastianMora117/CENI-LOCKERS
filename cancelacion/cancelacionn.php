@@ -40,9 +40,9 @@ if (isset($_GET['cerrar_sesion'])) {
     <section id="hero1" >
         <form action="../cancelacion/cancelacion.php" method="post" class="contenedor" >
             <h2>CANCELACIÓN</h2>
-            <input type="text" name="porque" placeholder="Razón de la cancelación" ><br>
+            <label for="casillero">Casillero que se desea cancelar la reserva:</label>
             <input type="number" name="casillero" placeholder="Casillero que se desea cancelar la reserva" ><br>
-            <input type="text" name="nom" placeholder="Nombre del estudiante"><br>
+            
             <input type="button" id="cancelar" value="Cancelar Reserva">
         </form>
     </section>
