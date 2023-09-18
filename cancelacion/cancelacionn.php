@@ -31,9 +31,11 @@ if (isset($_GET['cerrar_sesion'])) {
         </div>
     </header>
     <section id="hero">
-       <h1>Mostrar Valores</h1>
+       <h1>CUANTO TIEMPO ME QUEDA</h1>
        <form action="cancelacion.php" method="get">
-        <button id="tiempo"type="submit" value="Mostrar tiempo">
+       <label for="casillero">Casillero que se desea cancelar la reserva:</label>
+       <input type="number" name="casillero" placeholder="Casillero que se desea revisar el tiempo" ><br>
+        <button id="tiempo"type="submit">MOSTRAR TIEMPO</button>
     </form>
     </section>
     <br><br><br>   <br>
@@ -62,3 +64,4 @@ if (isset($_GET['cerrar_sesion'])) {
     
 </body>
 </html>
+
