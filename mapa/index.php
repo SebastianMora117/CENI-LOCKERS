@@ -25,54 +25,53 @@ if (isset($_GET['cerrar_sesion'])) {
   <link rel="stylesheet" href="estilo.css">
     <meta charset="UTF-8">
 </head>
-<body>
-    <header>
+<header >
         <div class="container">
             <p class="logo">Cenilockers!</p>
             <nav>
-                <a href="#container"> Contáctenos</a>
-                <a href="../Soporte/index.php">Soporte</a>
+                
+                <a href="../Soporte/index.php" >Soporte</a>
                 <a href="../reportes/index.php">Reportes</a>
                 <a href="../cancelacion/cancelacionn.php">Cancelación</a>
                 <a href="?cerrar_sesion=1">Cerrar Sesión</a>
 
             </nav>
         </div>
-    </header>
+  </header>
 
 
 
 
 <!-- MODALES BOTONES -->
-<section id="hero">
+<section id="hero" >
     
     
   
   <!-- Modal -->
  
     
-    <button type="button" id="s5" class="btn btn-custom5 " data-toggle="modal" data-target="#myModal5">
-            sección 5
+    <button type="button" id="s5" class="btn btn-custom casillero-btn" data-toggle="modal" data-target="#myModal5" >
+            Sección 5
         </button>
 
-    <button type="button" id="s4" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">
-            sección 4
+    <button type="button" id="s4" class="btn btn-custom casillero-btn" data-toggle="modal" data-target="#myModal4">
+            Sección 4
         </button>
    
-    <button type="button" id="s3" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">
-            sección 3
+    <button type="button" id="s3" class="btn btn-custom casillero-btn" data-toggle="modal" data-target="#myModal3">
+            Sección 3
         </button>
     
-    <button type="button" id="s2" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
-            sección 2
+    <button type="button" id="s2" class="btn btn-custom casillero-btn"data-toggle="modal" data-target="#myModal2">
+            Sección 2
         </button>
     
-    <button type="button" id="s1" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
-            sección 1
+    <button type="button" id="s1" class="btn btn-custom casillero-btn" data-toggle="modal" data-target="#myModal1">
+            Sección 1
         </button>
    
-    <button type="button" id="s6" class="btn btn-primary" data-toggle="modal" data-target="#myModal6">
-            sección 6 y sección 7
+    <button type="button" id="s6" class="btn btn-custom casillero-btn" data-toggle="modal" data-target="#myModal6">
+            Sección 6 y Sección 7
         </button>
       
     
@@ -414,21 +413,25 @@ if (isset($_GET['cerrar_sesion'])) {
             <h2>Nuestros servicios</h2>
             <div class="programas">
                 <div class="carta">
-                    <h3>Reserva</h3>
+                    <h3>Reserva</h3><br>
                     <br>
-                    <p>La principal razón de nuestro proyecto es brindar a los aprendices la facilidad de reservar un locker, para que asi se reduzca el tiempo que gasta en buscar un casillero disponible que en muchos casos esta busqueda es en vano.</p>
+                    
+                    <br><p>La principal razón de nuestro proyecto es brindar a los aprendices la facilidad de reservar un locker, para que asi se reduzca el tiempo que gasta en buscar un casillero disponible que en muchos casos esta busqueda es en vano.</p>
                     <button><a href="#hero">Reserva ya</button></a>
                 </div>
                 <div class="carta">
-                    <h3>Administración</h3>
+                    <h3>Administración</h3><br>
                     <br>
-                    <p>Hemos creado cenilockers no solo para hacer la vida de los aprendices un poco mas sencilla,si no para que los administradores de nuestra sede tengan a la mano el estado de los casilleros, asi mismo se tenga en cuenta información de la persona que tiene guardas sus pertenencias y asi tener una correcta administración de quien ocupa un casillero para poder solucionar problemas</p>
+                    
+                    <br><p>Hemos creado cenilockers no solo para hacer la vida de los aprendices un poco mas sencilla,si no para que los administradores de nuestra sede tengan a la mano el estado de los casilleros, asi mismo se tenga en cuenta información de la persona que tiene guardas sus pertenencias y asi tener una correcta administración de quien ocupa un casillero para poder solucionar problemas</p>
                     <button><a href="../Soporte/index.php">Reportes</button></a>
                 </div>
                 <div class="carta">
-                    <h3>Reporte</h3>
+                    <h3>Reporte</h3><br>
+                    
                     <br>
-                    <p>Estamos comprometidos con el binestar y el sentido de pertenencia por nuestra institución es por esto que tanto aprendices y administradores pueden hacer el reporte de los casilleros averiados, permitiendonos saber el estado de nuestros lockers .</p>
+                    
+                    <br><p>Estamos comprometidos con el binestar y el sentido de pertenencia por nuestra institución es por esto que tanto aprendices y administradores pueden hacer el reporte de los casilleros averiados, permitiendonos saber el estado de nuestros lockers .</p>
                     <button><a href="../reportes/index.php">Reportes</button></a>
                 </div>  
             </div>
@@ -438,19 +441,20 @@ if (isset($_GET['cerrar_sesion'])) {
     <section id="caracteristicas">
         <div class="container">
             <ul>
-                <li>✔️ 100% online</li>
-                <li>✔️ Disponible en todas las jornadas</li>
-                <li>✔️ Soporte 1:1</li>
-                <li>✔️ Asistencia </li>
+                <li>✔️ Todas las jornadas</li>
+                <li>✔️ Facil de usar  </li>
+                <li>✔️ Soporte continuo</li>
+              
+                
             </ul>
         </div>
     </section>
 
     <section id="final">
         <h2>¿Listo para reservar?</h2>
+        <br>
         <button><a href="#hero">RESERVA YA!</a></button>
     </section>
-
     <footer>
         <div class="container" id="container">
             <p>Linea gratuita 018000000-0000<br>
