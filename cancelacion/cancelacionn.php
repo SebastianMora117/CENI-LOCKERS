@@ -33,17 +33,17 @@ if (isset($_GET['cerrar_sesion'])) {
     <section id="hero">
        <h1>Mostrar Valores</h1>
        <form action="cancelacion.php" method="get">
-        <input id="tiempo"type="submit" value="Mostrar tiempo">
+        <button id="tiempo"type="submit" value="Mostrar tiempo">
     </form>
     </section>
     <br><br><br>   <br>
     <section id="hero1" >
-        <form action="../cancelacion/cancelacion.php" method="post" class="contenedor" >
+        <form action="cancelacion.php" method="post" class="contenedor" >
             <h2>CANCELACIÓN</h2>
             <label for="casillero">Casillero que se desea cancelar la reserva:</label>
             <input type="number" name="casillero" placeholder="Casillero que se desea cancelar la reserva" ><br>
             
-            <input type="button" id="cancelar" value="Cancelar Reserva">
+            <button  id="cancelar" type="submit">Enviar</button>
         </form>
     </section>
     <br><br><br><br>
@@ -58,7 +58,7 @@ if (isset($_GET['cerrar_sesion'])) {
             </p>
         </div>
     </footer>
-    <script src="../cancelacion/notificacion.js"></script>
+    
     
 </body>
 </html>
