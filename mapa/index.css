@@ -124,8 +124,8 @@ header a:hover{
 
 #hero #s6{
     position: relative;
-    top:-380px;
-    left:-50px;
+    top:-60px;
+    left:-250px;
 
     
 }
@@ -140,10 +140,7 @@ header a:hover{
 
 }
 #s5{
-    position: relative;
-    background-color: blueviolet;
-    left: 200px;
-    height: 70px;
+    background-color:blueviolet;
     color: #fbf7f7;
     border-color: skyblue;
 
@@ -151,43 +148,43 @@ header a:hover{
 
 #hero #s5{
     position: relative;
-    top:   50px;
-    left: -40px;
+    top:70px;
+    left:422px;
+
 }
 
 #hero #s4{
     position: relative;
     top:180px;
-    left:710px;
-    background-color: blueviolet;
-   
-
+    left:660px;
 }
 #s4{
-    height: 100px;
     color: #fbf7f7;
     border-color: skyblue;
+    background-color: blueviolet;
+    height: 100px;
     
 }
 #hero #s3{
     position: relative;
     left:180px;
     top:70px;
-    background-color: blueviolet;
+    
 
 }
 #s3{
     height: 100px;
     color: #fbf7f7;
     border-color: skyblue;
+    background-color: blueviolet;
     
     
 }
 #hero #s2{
     position: relative;
     top:130px;
-    left:400px;
-    background-color: blueviolet;
+    left:660px;
+    
 
 
 }
@@ -195,20 +192,19 @@ header a:hover{
     height: 100px;
     color: #fbf7f7;
     border-color: skyblue;
+    background-color: blueviolet;
 }
 #hero #s1{
-    padding: 10px;
+    
     position: relative;
     top:20px;
-    left:100px;
-    background-color: blueviolet;
-
-
+    left:180px;
 }
 #s1{
     height: 100px;
     color: #fbf7f7;
     border-color: skyblue;
+    background-color: blueviolet;
 }
 
   #s5 h6, #s4 h6, #s3 h6, #s2 h6, #s1 h6 {
@@ -326,6 +322,7 @@ footer p{
     margin: 0;
     padding: 12px;
     color: rgb(100,100,100);
+    text-align: center;
    
 }
 
@@ -359,37 +356,11 @@ footer .container{
    #hero{
     width: 100%;
    }
-   #hero #s1{
-    padding: 10px;
-    position: relative;
-    top:20px;
-    left:-180px;
-    background-color: blueviolet;
-
-
-}
-#hero #s2{
    
+ 
+
+
    
-    left:100px;
-    background-color: blueviolet;
-
-
-}
-#hero #s3{
-  
-    left:-180px;
-   
-    background-color: blueviolet;
-
-}
-#hero #s4{
-    left:100px;
-    background-color: blueviolet;
-}
-    #hero #s5{
-    left: -30px;
-}
 
 
 
@@ -510,6 +481,7 @@ footer .container{
     footer .container{
         justify-content: flex-end;
     }
+  
 }
 
 @media (min-width: 1200px) {
