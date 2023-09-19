@@ -1,5 +1,3 @@
-
-
 *{
     box-sizing: border-box;
 }
@@ -118,6 +116,7 @@ header a{
         background-position-x: calc(100vw - 800px);
     }
 }
+
 
 
 
