@@ -43,12 +43,12 @@ if (isset($_GET['cerrar_sesion'])) {
             <div class="img-container"></div>
             <div class="texto">
                 
-                <form class="report-form">
+                <form action="../PHP/reportes.php" method="post"class="report-form">
                     <label for="lockerNumber">Número de Locker:</label>
-                    <input type="text" id="lockerNumber" required>
+                    <input type="text" name="id_locker" id="lockerNumber" required>
                 <br><br>
                     <label for="reportDetails">Detalles del Reporte:</label>
-                    <textarea id="reportDetails" required></textarea>
+                    <textarea id="reportDetails" name="reporte" required></textarea>
                     <br><br>
                     <button class="submit-btn">Enviar Reporte</button>
                   </form>
