@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             window.location.href = 'cancelacionn.php';</script>";
         } else {
             echo "<script>alert('cancelacion fallida');
-            window.location.href = 'cancelacionn.php';</script>"; . $conexion->error;
+            window.location.href = 'cancelacionn.php';</script>";  $conexion->error;
         }
 
         $conexion->close();
