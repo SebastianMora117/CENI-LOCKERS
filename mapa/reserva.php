@@ -4,6 +4,7 @@ session_start(); // Iniciar la sesión si aún no está iniciada
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     include_once('conexion.php');
 
+    $id_usuarios = $_SESSION['id'];
     $lockerSelec = $_POST['locker'];
 
     // Verificar si ya se seleccionó un casillero
@@ -12,6 +13,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         window.location.href = '../mapa/index.php';</script>";
         exit();
     }
+    // Verificar que solo se reserve un locker por usuario
+
+    $ReservaExistente = "SELECT * FROM lockers WHERE id_usuarios = '$id_usuarios'";
+    $resultado = mysqli_query($conexion, $ReservaExistente);
+    if (mysqli_num_rows($resultado) > 0) {
+        echo "<script>alert('Usted ya ha reservado un locker');
+        window.location.href = 'index.php';</script>";
+        exit();
+    }
+
 
     if ($lockerSelec == "") {
         echo "<script>alert('Debes seleccionar un casillero');
@@ -29,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit();
     }
 
-    $consulta = "INSERT INTO lockers (id_locker, reservation_time, expiration_time) VALUES ('$lockerSelec', NOW(), DATE_ADD(NOW(), INTERVAL 1 MINUTE))";
+    $consulta = "INSERT INTO lockers (id_locker, reservation_time, expiration_time, id_usuarios) VALUES ('$lockerSelec', NOW(), DATE_ADD(NOW(), INTERVAL 1 MINUTE), '$id_usuarios')";
 
     if (mysqli_query($conexion, $consulta)) {
         // Registrar la selección en la variable de sesión
@@ -47,3 +58,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mysqli_close($conexion);
 }
 ?>
+
