@@ -125,14 +125,14 @@ header a:hover{
 #hero #s6{
     position: relative;
     top:-60px;
-    left:-250px;
+    left:-250px; 
 
     
 }
 #s6{
     height: 100px;
     width: 500px;
-    background-color: blueviolet;
+    background-color:blueviolet;
    text-align: center;
    color: #fbf7f7;
    border-color: skyblue;
@@ -144,12 +144,15 @@ header a:hover{
     color: #fbf7f7;
     border-color: skyblue;
 
+
 }
 
 #hero #s5{
     position: relative;
     top:70px;
     left:422px;
+    
+
 
 }
 
@@ -332,7 +335,15 @@ footer .container{
     text-align: center;
 }
 
+
 @media (min-width: 850px){
+   
+
+
+
+
+
+
     header{
         position: fixed;
         width: 100%;
@@ -356,21 +367,23 @@ footer .container{
    #hero{
     width: 100%;
    }
-   
- 
+   #hero{
+    width: 100%;
+   }
+
+
+
+
+
+
+
+
+
+
+
 
 
    
-
-
-
-
-
-
-
-
- 
-
     #somos-proya .container{
         display: flex;
         justify-content: space-evenly;
@@ -489,3 +502,6 @@ footer .container{
         background-position-x: calc(100vw - 800px);
     }
 }
+
+
+
