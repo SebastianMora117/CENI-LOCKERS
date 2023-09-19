@@ -74,7 +74,7 @@ header a{
     
 }
 
-  #tiempo 
+#tiempo 
   {
     font-size: 1.25em;
     font-weight: bold;
@@ -85,8 +85,6 @@ header a{
     color: white;
     background-color: blueviolet;
   }
-
-  
 
 
 
@@ -120,5 +118,6 @@ header a{
         background-position-x: calc(100vw - 800px);
     }
 }
+
 
 
