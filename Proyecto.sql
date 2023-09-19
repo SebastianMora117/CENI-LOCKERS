@@ -24,8 +24,10 @@ CREATE TABLE usuarios (
 create table lockers(
     id_locker varchar(30) PRIMARY KEY NOT NULL,
     reservation_time TIME NOT NULL,
-    expiration_time TIME NOT NULL
+    expiration_time TIME NOT NULL,
+    id_usuarios VARCHAR(30) NOT NULL
 );
+
 create table reportes(
     id_locker int AUTO_INCREMENT PRIMARY KEY not null,
     reporte varchar(200) not null,
