@@ -32,7 +32,7 @@ if (isset($_GET['cerrar_sesion'])) {
     </header>
     <section id="hero">
        <h1>CUANTO TIEMPO ME QUEDA</h1>
-       <form action="cancelacion.php" method="get">
+       <form action="tiempo.php" method="POST">
        <label for="casillero">Casillero que se desea revisar el tiempo:</label>
        <input type="number" name="casillero" placeholder="Casillero que se desea revisar el tiempo" ><br>
         <button id="tiempo"type="submit">MOSTRAR TIEMPO</button>
