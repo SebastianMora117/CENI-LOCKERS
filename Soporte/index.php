@@ -75,35 +75,36 @@ if (isset($_GET['cerrar_sesion'])) {
     <p>Después de crear tu cuenta, inicia sesión utilizando tu número de identificación y contraseña.</p>
 </div>
 <div class="carta">
-    <h3>2.Navegación:</h3>
-    <p>Navega por nuestro sitio web para acceder a nuestra página de reserva.</p>
-</div>
-<div class="carta">
-    <h3>3.Seleccionar:</h3>
-    <p>Revisa las secciones de lockers y elige la que mejor se adapte a tus necesidades.</p>
+    <h3>2.Seleccionar:</h3>
+    <p>Estando en la página de reserva revisa las secciones de lockers y elige la que mejor se adapte a tus necesidades.</p>
 </div>  
 <div class="carta">
-    <h3>4.Reservar:</h3>
+    <h3>3.Reservar:</h3>
     <p>Una vez que hayas elegido una sección, abre la lista de lockers y selecciona el de tu preferencia.</p>
 </div>
-</div>
-<div class="programas"> 
-    <div class="carta2">
-        <h3>5.Confirmación:</h3>
+<div class="carta">
+        <h3>4.Confirmación:</h3>
         <p>Después de completar el proceso de reserva, recibirás una alerta en pantalla confirmando tu reserva.</p>
     </div>
+</div>
+<div class="programas"> 
+    
     <div class="carta2">
-        <h3>6.Cancelación:</h3>
+        <h3>5.Cancelación:</h3>
         <p>Cuando ya no requieras del servicio de lockers dirígete a la página de cancelación para finalizar tu reserva.</p>
     </div>
     <div class="carta2">
-        <h3>7.Reporte:</h3>
+        <h3>6.Reporte:</h3>
         <p>Si encuentras alguna novedad con el locker reservado, puedes dejar tu observación en la página de reportes.</p>
     </div>
     <div class="carta2">
-        <h3>8.Soporte:</h3>
+        <h3>7.Soporte:</h3>
         <p>Si tienes alguna duda o inquietud, puedes realizarla en la página de soporte.</p>
-    </div> 
+    </div>
+    <div class="carta2">
+        <h3>MasInformación:</h3>
+        <p>Da click acá para ver nuestro paso a paso en youtube.<br> <br> <button><a href="https://www.youtube.com/watch?v=cre9wZzWA_o" style="text-decoration: none; color: white;    ">Ver</a></button></p>
+    </div>
 </div>
 
             </div>
@@ -160,3 +161,4 @@ if (isset($_GET['cerrar_sesion'])) {
     
 </body>
 </html>
+
