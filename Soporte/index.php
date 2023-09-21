@@ -55,10 +55,10 @@ if (isset($_GET['cerrar_sesion'])) {
 
                 <h2><span class="color-acento">Preguntas Frecuentes</span></h2>
                 <p><strong>¿Qué sucede si necesito cancelar mi reserva?</strong><br>
-                    Si necesitas cancelar tu reserva, puedes hacerlo a través de nuestra plataforma.
+                    Si necesitas cancelar tu reserva, puedes hacerlo a través de nuestra plataforma en la seccion de Cancelación.
                 </p>
-                <p><strong>¿Cuál es la duración mínima y máxima de una reserva de locker?</strong><br>
-                    La duración mínima de una reserva de locker es de 1 hora. Por otro lado, la duración máxima de una reserva es hasta las 10:00 PM
+                <p><strong>¿Cuál es la duración máxima de una reserva de locker?</strong><br>
+                    La duración máxima es de 8 horas, sin embargo, si necesitas dejar el centro formativo antes, puedes cancelar tu reserva en cualquier momento
                 </p>
             </div>
         </div>
@@ -70,40 +70,42 @@ if (isset($_GET['cerrar_sesion'])) {
         <div class="container">
             <h2>Paso a Paso</h2>
             <div class="programas">
-                <div class="carta">
-                    <h3>1.IniciarSesión:</h3>
-                    <p>Después de crear tu cuenta, inicia sesión utilizando tu dirección de correo electrónico y contraseña.</p>
-                </div>
-                <div class="carta">
-                    <h3>2.Disponibilidad:</h3>
-                    <p>Utiliza la función de búsqueda para verificar la disponibilidad de lockers en el SENA.</p>
-                </div>
-                <div class="carta">
-                    <h3>3.Seleccionar:</h3>
-                    <p>Revisa las opciones de lockers disponibles y elige el que mejor se adapte a tus necesidades.</p>
-                </div>  
-                <div class="carta">
-                    <h3>4.Reservar:</h3>
-                    <p>Una vez que hayas elegido un locker, selecciona las fechas de inicio y finalización de tu reserva.</p>
-                </div>
-            </div>
-            <div class="programas"> 
-                <div class="carta2">
-                    <h3>5.Confirmación:</h3>
-                    <p>Después de completar el proceso de reserva, recibirás una confirmación en pantalla y también por correo electrónico.</p>
-                </div>
-                <div class="carta2">
-                    <h3>6.Accesibilidad:</h3>
-                    <p>Llega a la ubicación designada en el SENA en la fecha de inicio de tu reserva.</p>
-                </div>
-                <div class="carta2">
-                    <h3>7.Utilización:</h3>
-                    <p>Una vez que hayas accedido al locker, úsalo según tus necesidades.</p>
-                </div>
-                <div class="carta2">
-                    <h3>8.Finalización:</h3>
-                    <p>Cuando hayas terminado de utilizar el locker, asegúrate de retirar todas tus pertenencias.</p>
-                </div> 
+            <div class="carta">
+    <h3>1.Iniciar Sesión:</h3>
+    <p>Después de crear tu cuenta, inicia sesión utilizando tu número de identificación y contraseña.</p>
+</div>
+<div class="carta">
+    <h3>2.Navegación:</h3>
+    <p>Navega por nuestro sitio web para acceder a nuestra página de reserva.</p>
+</div>
+<div class="carta">
+    <h3>3.Seleccionar:</h3>
+    <p>Revisa las secciones de lockers y elige la que mejor se adapte a tus necesidades.</p>
+</div>  
+<div class="carta">
+    <h3>4.Reservar:</h3>
+    <p>Una vez que hayas elegido una sección, abre la lista de lockers y selecciona el de tu preferencia.</p>
+</div>
+</div>
+<div class="programas"> 
+    <div class="carta2">
+        <h3>5.Confirmación:</h3>
+        <p>Después de completar el proceso de reserva, recibirás una alerta en pantalla confirmando tu reserva.</p>
+    </div>
+    <div class="carta2">
+        <h3>6.Cancelación:</h3>
+        <p>Cuando ya no requieras del servicio de lockers dirígete a la página de cancelación para finalizar tu reserva.</p>
+    </div>
+    <div class="carta2">
+        <h3>7.Reporte:</h3>
+        <p>Si encuentras alguna novedad con el locker reservado, puedes dejar tu observación en la página de reportes.</p>
+    </div>
+    <div class="carta2">
+        <h3>8.Soporte:</h3>
+        <p>Si tienes alguna duda o inquietud, puedes realizarla en la página de soporte.</p>
+    </div> 
+</div>
+
             </div>
         </div>
     </section>
