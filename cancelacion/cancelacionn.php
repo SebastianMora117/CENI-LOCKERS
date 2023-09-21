@@ -51,18 +51,7 @@ if (isset($_GET['cerrar_sesion'])) {
         </form>
     </section>
     <br><br><br><br>
-    footer p{
-    margin: 0;
-    padding: 12px;
-    color: black(148, 148, 148);
-    background-color:white rgb(30,30,30);
-}
-
-footer .container{
-    text-align: center;
-    justify-content: center;
-    background-color:white rgb(30,30,30);
-}
+ 
     <footer>
         <div class="container">
             <p>
