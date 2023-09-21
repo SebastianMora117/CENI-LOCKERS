@@ -76,7 +76,12 @@ if (isset($_GET['cerrar_sesion'])) {
     <section id="caracteristicas">
         <div class="container">
             <ul>
-                <li>✔️ Gracias por realizar el reporte.
+                <li>
+                    ✔️Gracias por reportarnos tu problema <br> 
+                         tendremos en cuenta tu reporte <br>
+                            e intentaremos solucionarlo <br>
+                              lo mas pronto posible.<br>
+                        
             </ul>
         </div>
     </section>
