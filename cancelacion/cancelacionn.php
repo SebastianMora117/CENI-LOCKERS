@@ -67,4 +67,3 @@ if (isset($_GET['cerrar_sesion'])) {
     
 </body>
 </html>
-
