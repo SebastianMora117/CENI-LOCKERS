@@ -35,7 +35,7 @@ if (isset($_GET['cerrar_sesion'])) {
     <section id="hero">
        <h1>CUANTO TIEMPO ME QUEDA</h1>
        <form action="tiempo.php" method="POST">
-       <label for="casillero">Casillero que se desea revisar el tiempo:</label>
+       <label for="casillero">Casillero que se desea revisar el tiempo:</label><br><br>
        <input type="number" name="casillero" placeholder="Casillero que se desea revisar el tiempo" ><br>
         <button id="tiempo"type="submit">MOSTRAR TIEMPO</button>
     </form>
@@ -44,13 +44,25 @@ if (isset($_GET['cerrar_sesion'])) {
     <section id="hero1" >
         <form action="cancelacion.php" method="post" class="contenedor" >
             <h2>CANCELACIÓN</h2>
-            <label for="casillero">Casillero que se desea cancelar la reserva:</label>
+            <label for="casillero">Casillero que se desea cancelar la reserva:</label><br><br>
             <input type="number" name="casillero" placeholder="Casillero que se desea cancelar la reserva" ><br>
             
-            <button  id="cancelar" type="submit">Enviar</button>
+            <button  id="cancelar" type="submit">Cancelar</button>
         </form>
     </section>
     <br><br><br><br>
+    footer p{
+    margin: 0;
+    padding: 12px;
+    color: black(148, 148, 148);
+    background-color:white rgb(30,30,30);
+}
+
+footer .container{
+    text-align: center;
+    justify-content: center;
+    background-color:white rgb(30,30,30);
+}
     <footer>
         <div class="container">
             <p>
