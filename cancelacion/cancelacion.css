@@ -120,22 +120,7 @@ header a:hover{
     }
 }
 
-form {
-    color: blueviolet;
-    padding-top: 25px;
-    margin-top: 25px;
-    background-color: rgb(255, 255, 255);
-    width: 400px;
-    height: 350px;
-    display: flex;
-    justify-content: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    border-radius: 10px;
-    border-color: black;
-    border: solid;
-  }
+
  
   #cancelar{
     font-size: 1.25em;
