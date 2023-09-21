@@ -71,7 +71,7 @@ if (isset($_GET['cerrar_sesion'])) {
             <h2>Paso a Paso</h2>
             <div class="programas">
             <div class="carta">
-    <h3>1.Iniciar Sesión:</h3>
+    <h3>1.IniciarSesión:</h3>
     <p>Después de crear tu cuenta, inicia sesión utilizando tu número de identificación y contraseña.</p>
 </div>
 <div class="carta">
