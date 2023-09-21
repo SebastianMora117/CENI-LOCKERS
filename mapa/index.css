@@ -42,6 +42,11 @@ button #word{
 
 button:hover{
     background-color: rgb(101, 33, 165);
+    
+}
+button .reserva-link:hover{
+    
+    color: white;
 }
 
 .container{
