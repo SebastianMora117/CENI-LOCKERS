@@ -20,14 +20,14 @@ if (isset($_GET['cerrar_sesion'])) {
 <body>
 <header>
         <div class="container">
-            <p class="logo">Cenilockers!</p>
+            <p class="logo">CeniLockers!</p>
             <nav>
-                <a href="#container"> Contactenos</a>
-                <a href="../Soporte/index.php">Soporte</a>
+                <a href="../paginainicio/index.php">Inicio</a>
+                <a href="../mapa/index.php">Reserva</a>
                 <a href="../cancelacion/cancelacionn.php">Cancelación</a>
-
+                <a href="../reportes/index.php">Reportes</a>
+                <a href="../Soporte/index.php">Soporte</a>
                 <a href="?cerrar_sesion=1">Cerrar Sesión</a>
-
             </nav>
         </div>
     </header>
