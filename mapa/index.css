@@ -25,11 +25,17 @@ button{
     border-radius: 5px;
     border: 2px solid rgba(0,0,0,0.3);
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-    color: white;
+    color: rgb(229, 222, 222);
     background-color: blueviolet;
     transition: all 0.3s; 
   
     
+}
+button #word{
+    color: white;
+}
+.reserva-link {
+    color: white;
 }
 
 
@@ -316,26 +322,25 @@ header a:hover{
     font-size: 5vw;
 }
 
+
+
 footer{
-    background-color: rgb(23, 23, 23);
-    
-    
+    align-items: center;
+    background-color:white rgb(30,30,30);
 }
 
 footer p{
     margin: 0;
     padding: 12px;
-    color: rgb(100,100,100);
-    text-align: center;
-   
+    color: black(148, 148, 148);
+    background-color:white rgb(30,30,30);
 }
 
 footer .container{
-    height: 150px;
-    display: flex;
     text-align: center;
+    justify-content: center;
+    background-color:white rgb(30,30,30);
 }
-
 
 @media (min-width: 850px){
    
