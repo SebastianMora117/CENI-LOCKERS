@@ -11,14 +11,7 @@
         <div class="container">
             <p class="logo">CeniLockers!</p>
             <nav>
-                <a href="#container">Contactenos</a>
-                <a href="../Soporte/index.php">Soporte</a>
-               
-                <a href="../reportes/index.php">Reportes</a>
-       
-
-                
-               
+                <a href="../Inicios/InicioSesion.html">Iniciar Sesión</a>
             </nav>
         </div>
     </header>
@@ -35,7 +28,7 @@
             <div class="texto">
 
                 <h2>Somos <span class="color-acento">CeniLockers</span></h2>
-                <p>Te ofrecemos el mejor servicio 24 horas, cero costos y 100% online en nuestra pagina CeniLockers, registrate y reserva tu locker con solo un click, ahorra tiempo y cuida tus pertenencias. </p>
+                <p>Te ofrecemos el mejor servicio, 100% online en nuestra pagina CeniLockers, registrate y reserva tu locker con solo un click, ahorra tiempo y cuida tus pertenencias. </p>
             </div>
         </div>
     </section>
@@ -46,18 +39,16 @@
             <div class="programas">
              
                 <div class="carta">
+                    <br><br>
                     <h3>Vision</h3>
+                    <br>
                     <p>Ser el líder en soluciones de seguridad para casilleros en universidades e instutuciones educativas, brindando tranquilidad y confianza a la comunidad estudiantil, con tecnología de vanguardia y un enfoque centrado en la protección y comodidad de nuestros usuarios.</p>
                 </div>
                 <div class="carta">
+                    <br><br>
                     <h3>Mision</h3>
-                    <p>Nuestra misión es ofrecer soluciones innovadoras de seguridad para casilleros en universidades, garantizando la protección de pertenencias personales y materiales de valor de los estudiantes y personal académico. Nos comprometemos a proporcionar productos y servicios de alta calidad, enfocados en la confiabilidad, accesibilidad y facilidad de uso, con un equipo comprometido y orientado a satisfacer las necesidades de seguridad de nuestra comunidad universitaria."
-
-
-
-
-
-</p>
+                    <br>
+                    <p>Ofrecemos soluciones de seguridad innovadoras para casilleros en universidades. Garantizamos la protección de pertenencias y materiales de valor. Nuestros productos y servicios son confiables y fáciles de usar, con un equipo comprometido con la seguridad de la comunidad universitaria.</p>
                    
                 </div>  
             </div>
@@ -70,14 +61,14 @@
                 <li>✔️ 100% online</li>
                 <li>✔️ Flexibilidad de horarios</li>
                 <li>✔️ Soporte 1:1</li>
-                <li>✔️ Asistencia financiera</li>
+                <li>✔️ Facil y rapida de usar</li>
             </ul>
         </div>
     </section>
 
     <section id="final">
-        <h2>No te has registrado?</h2>
-        <button><a href="../Inicios/Registro.html" style="text-decoration: none;color:white">Registrate!</a></button>
+        <h2>¿No te has registrado?</h2>
+        <button><a href="../Inicios/Registro.html" style="text-decoration: none;color:white">Registrate</a></button>
     </section>
     <style>
     footer{
