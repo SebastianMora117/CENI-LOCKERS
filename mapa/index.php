@@ -424,14 +424,14 @@ if (isset($_GET['cerrar_sesion'])) {
                     <br>
                     
                     <br><p>La principal razón de nuestro proyecto es brindar a los aprendices la facilidad de reservar un locker, para que asi se reduzca el tiempo que gasta en buscar un casillero disponible que en muchos casos esta busqueda es en vano.</p>
-                    <button><a href="#hero" class="reserva-link">Reserva ya</button></a>
+                    <button><a href="#hero" class="reserva-link" style="text-decoration:none;">Reserva ya</button></a>
                 </div>
                 <div class="carta">
                     <h3>Administración</h3><br>
                     <br>
                     
-                    <br><p>Hemos creado cenilockers no solo para hacer la vida de los aprendices un poco mas sencilla,si no para que los administradores de nuestra sede tengan a la mano el estado de los casilleros, asi mismo se tenga en cuenta información de la persona que tiene guardas sus pertenencias y asi tener una correcta administración de quien ocupa un casillero para poder solucionar problemas</p>
-                    <button><a href="../Soporte/index.php" class="reserva-link">Reportes</button></a>
+                    <br><p>Hemos creado cenilockers no solo para hacer la vida de los aprendices un poco mas sencilla,si no para que los administradores de nuestra sede tengan a la mano el estado de los casilleros, asi mismo se tenga en cuenta información de la persona que tiene guardas sus pertenencias y asi tener una correcta administración de quien ocupa un casillero para poder solucionar problemas.</p>
+                    <button><a href="../Soporte/index.php" class="reserva-link" style="text-decoration:none;">Soporte</button></a>
                 </div>
                 <div class="carta">
                     <h3>Reporte</h3><br>
@@ -439,7 +439,7 @@ if (isset($_GET['cerrar_sesion'])) {
                     <br>
                     
                     <br><p>Estamos comprometidos con el binestar y el sentido de pertenencia por nuestra institución es por esto que tanto aprendices y administradores pueden hacer el reporte de los casilleros averiados, permitiendonos saber el estado de nuestros lockers .</p>
-                    <button><a href="../reportes/index.php" class="reserva-link">Reportes</button></a>
+                    <button><a href="../reportes/index.php" class="reserva-link" style="text-decoration:none;">Reportes</button></a>
                 </div>  
             </div>
         </div>
@@ -460,7 +460,7 @@ if (isset($_GET['cerrar_sesion'])) {
     <section id="final">
         <h2>¿Listo para reservar?</h2>
         <br>
-        <button><a href="#hero" class="reserva-link">RESERVA YA!</a></button>
+        <button><a href="#hero" class="reserva-link" style="text-decoration:none;">RESERVA YA!</a></button>
     </section>
     <footer >
         <div class="container" id="container" >
